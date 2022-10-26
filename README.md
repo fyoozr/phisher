@@ -14,7 +14,7 @@ Table of contents
 ```
 git clone https://github.com/fyoozr/phisher.git
 cd phisher
-chmod +x gogophish.sh
+chmod +x phisher.sh
 ```
 
 ## Usage
