@@ -12,7 +12,7 @@ Table of contents
 ## Installation
 
 ```
-git clone https://https://github.com/fyoozr/phisher.git
+git clone https://github.com/fyoozr/phisher.git
 cd phisher
 chmod +x gogophish.sh
 ```
