@@ -48,3 +48,9 @@ Options:
 Examples:
   ./phisher.sh -d <domain name>			Configure Posftix + DKIM + Gopshish + SSL
   ```
+
+## All Respect and Credits
+Original Gogophish - @bigb0ss  (https://github.com/bigb0sss/gogophish)<br/>
+
+Modified to include Postfix and OpenDKIM by @fyoozr
+<br/>
