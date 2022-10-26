@@ -41,17 +41,16 @@ usage() {
 
 A quick Bash script to install GoPhish server with Postfix, OpenDKIM and Let's Encrypt SSL. 
 
-${bold}Usage: ${blue}./$(basename $0) [-r <rid name>] [-e] [-d <domain name> ] [-c] [-h]${clear}
+${bold}Usage: ${blue}./$(basename $0) [-d <domain name> ] [-c] [-h]${clear}
 
 One shot to set up:
   - Postfix email server
   - OpenDKIM settings
-  - Gophish Server (Email Phishing Ver.)
+  - Gophish Server
   - SSL Cert for Phishing Domain (LetsEncrypt)
 
 Options:
   -d <domain name>      SSL cert for phishing domain
-			${red}[WARNING] Configure 'A' record before running the script${clear}
   -c 			Cleanup for a fresh install
   -h              	This help menu
 
