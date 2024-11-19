@@ -46,7 +46,7 @@ Options:
   -h This help menu
 
 Examples:
-  ./phisher.sh -d <domain name>			Configure Postfix + DKIM/DMARC/SPF + Gopshish + SSL
+  ./phisher.sh -d <domain name>			Configure Postfix + DKIM/DMARC/SPF + Gophish + SSL
   ```
 
 ## All Respect and Credits
