@@ -177,6 +177,17 @@ dependencyCheck() {
                 echo "${blue}${bold}[*] Installing Opendkim...${clear}"
                 apt-get install opendkim opendkim-tools -y >/dev/null 2>&1
         fi
+
+     ### Checking/Installing fuser
+    	fusercheck=$(which fuser)
+
+        if [[ $fusercheck ]];
+        then
+                echo "${green}${bold}[+] Fuser already installed${clear}"
+        else
+                echo "${blue}${bold}[*] Installing fuser...${clear}"
+                apt-get install psmisc -y >/dev/null 2>&1
+        fi
 }
 
 ### Setup Gophish
@@ -357,7 +368,7 @@ ExternalIgnoreList	refile:/etc/opendkim/TrustedHosts' >> /etc/opendkim.conf
 
 ### Setup SSL Cert
 letsEncrypt() {
-	### Clearning Port 80
+	### Clearing Port 80
 	fuser -k -s -n tcp 80 
 	service gophish stop 2>/dev/null
 	
