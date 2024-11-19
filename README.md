@@ -46,11 +46,11 @@ Options:
   -h This help menu
 
 Examples:
-  ./phisher.sh -d <domain name>			Configure Posftix + DKIM + Gopshish + SSL
+  ./phisher.sh -d <domain name>			Configure Postfix + DKIM/DMARC/SPF + Gopshish + SSL
   ```
 
 ## All Respect and Credits
 Original Gogophish - @bigb0ss  (https://github.com/bigb0sss/gogophish)<br/>
 
-Modified to include Postfix and OpenDKIM by @fyoozr
+Modified to include Postfix, OpenDKIM and Let's Encrypt by @fyoozr
 <br/>
