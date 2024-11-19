@@ -55,7 +55,7 @@ Options:
   -h              	This help menu
 
 Examples:
-  ./$(basename $0) -d <domain name>			Configure Posftix + DKIM + Gopshish + SSL
+  ./$(basename $0) -d <domain name>			Configure Posftix + DKIM/DMARC/SPF + Gophish + SSL
 
 
 EOF
