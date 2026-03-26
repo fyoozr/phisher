@@ -1,4 +1,4 @@
-# The Phisher
+# The Phisherman
 A quick Bash script to build environment for phishing assesment with GoPhish, Postfix, OpenDKIM and Let's Encrypt SSL. 
 
 Table of contents
